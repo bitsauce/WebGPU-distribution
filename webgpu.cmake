@@ -9,7 +9,7 @@ if (NOT TARGET webgpu)
 
 		FetchContent_Declare(
 			webgpu-backend-emscripten
-			GIT_REPOSITORY https://github.com/eliemichel/WebGPU-distribution
+			GIT_REPOSITORY https://github.com/bitsauce/WebGPU-distribution
 			GIT_TAG        emscripten
 			GIT_SHALLOW    TRUE
 		)
@@ -19,7 +19,7 @@ if (NOT TARGET webgpu)
 
 		FetchContent_Declare(
 			webgpu-backend-wgpu
-			GIT_REPOSITORY https://github.com/eliemichel/WebGPU-distribution
+			GIT_REPOSITORY https://github.com/bitsauce/WebGPU-distribution
 			GIT_TAG        wgpu
 			GIT_SHALLOW    TRUE
 		)
@@ -29,7 +29,7 @@ if (NOT TARGET webgpu)
 
 		FetchContent_Declare(
 			webgpu-backend-dawn
-			GIT_REPOSITORY https://github.com/eliemichel/WebGPU-distribution
+			GIT_REPOSITORY https://github.com/bitsauce/WebGPU-distribution
 			GIT_TAG        dawn
 			GIT_SHALLOW    TRUE
 		)
